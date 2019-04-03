@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1756C40E22530FD6002FA8A5 /* MasterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756C40D22530FD6002FA8A5 /* MasterResponse.swift */; };
 		17970D8A2252633500FCEC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17970D892252633500FCEC70 /* AppDelegate.swift */; };
 		17970D8C2252633500FCEC70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17970D8B2252633500FCEC70 /* ViewController.swift */; };
 		17970D8F2252633500FCEC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17970D8D2252633500FCEC70 /* Main.storyboard */; };
 		17970D912252633800FCEC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17970D902252633800FCEC70 /* Assets.xcassets */; };
 		17970D942252633800FCEC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17970D922252633800FCEC70 /* LaunchScreen.storyboard */; };
+		17970DA022526CA100FCEC70 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17970D9F22526CA100FCEC70 /* MyTableViewCell.swift */; };
+		629B809F858178A40EAB7193 /* Pods_LoadMultipleImageFromUrl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239D6B7CFEC8B3D6CDA24B07 /* Pods_LoadMultipleImageFromUrl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1756C40D22530FD6002FA8A5 /* MasterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterResponse.swift; sourceTree = "<group>"; };
 		17970D862252633500FCEC70 /* LoadMultipleImageFromUrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMultipleImageFromUrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17970D892252633500FCEC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17970D8B2252633500FCEC70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		17970D902252633800FCEC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17970D932252633800FCEC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17970D952252633800FCEC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17970D9F22526CA100FCEC70 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		239D6B7CFEC8B3D6CDA24B07 /* Pods_LoadMultipleImageFromUrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadMultipleImageFromUrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2577E469DF33637069939B24 /* Pods-LoadMultipleImageFromUrl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMultipleImageFromUrl.debug.xcconfig"; path = "Target Support Files/Pods-LoadMultipleImageFromUrl/Pods-LoadMultipleImageFromUrl.debug.xcconfig"; sourceTree = "<group>"; };
+		D9925CCF236714C14CEC069F /* Pods-LoadMultipleImageFromUrl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMultipleImageFromUrl.release.xcconfig"; path = "Target Support Files/Pods-LoadMultipleImageFromUrl/Pods-LoadMultipleImageFromUrl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629B809F858178A40EAB7193 /* Pods_LoadMultipleImageFromUrl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				17970D882252633500FCEC70 /* LoadMultipleImageFromUrl */,
 				17970D872252633500FCEC70 /* Products */,
+				BF4BD87C91C8B97A294AF47B /* Pods */,
+				AF0A09745422BB42E21EED7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				17970D892252633500FCEC70 /* AppDelegate.swift */,
 				17970D8B2252633500FCEC70 /* ViewController.swift */,
+				1756C40D22530FD6002FA8A5 /* MasterResponse.swift */,
 				17970D8D2252633500FCEC70 /* Main.storyboard */,
 				17970D902252633800FCEC70 /* Assets.xcassets */,
 				17970D922252633800FCEC70 /* LaunchScreen.storyboard */,
 				17970D952252633800FCEC70 /* Info.plist */,
+				17970D9F22526CA100FCEC70 /* MyTableViewCell.swift */,
 			);
 			path = LoadMultipleImageFromUrl;
+			sourceTree = "<group>";
+		};
+		AF0A09745422BB42E21EED7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239D6B7CFEC8B3D6CDA24B07 /* Pods_LoadMultipleImageFromUrl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4BD87C91C8B97A294AF47B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2577E469DF33637069939B24 /* Pods-LoadMultipleImageFromUrl.debug.xcconfig */,
+				D9925CCF236714C14CEC069F /* Pods-LoadMultipleImageFromUrl.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17970D982252633800FCEC70 /* Build configuration list for PBXNativeTarget "LoadMultipleImageFromUrl" */;
 			buildPhases = (
+				4D04B5A29EF7D8CEAD28CD8A /* [CP] Check Pods Manifest.lock */,
 				17970D822252633500FCEC70 /* Sources */,
 				17970D832252633500FCEC70 /* Frameworks */,
 				17970D842252633500FCEC70 /* Resources */,
+				A315EDB6614823067F5D6C07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D04B5A29EF7D8CEAD28CD8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoadMultipleImageFromUrl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A315EDB6614823067F5D6C07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoadMultipleImageFromUrl/Pods-LoadMultipleImageFromUrl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoadMultipleImageFromUrl/Pods-LoadMultipleImageFromUrl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17970D822252633500FCEC70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17970D8C2252633500FCEC70 /* ViewController.swift in Sources */,
+				17970DA022526CA100FCEC70 /* MyTableViewCell.swift in Sources */,
+				1756C40E22530FD6002FA8A5 /* MasterResponse.swift in Sources */,
 				17970D8A2252633500FCEC70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +363,7 @@
 		};
 		17970D992252633800FCEC70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2577E469DF33637069939B24 /* Pods-LoadMultipleImageFromUrl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +381,7 @@
 		};
 		17970D9A2252633800FCEC70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9925CCF236714C14CEC069F /* Pods-LoadMultipleImageFromUrl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
